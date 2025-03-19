@@ -7,5 +7,8 @@ project(
 )
 
 inc = include_directories('include')
+add_project_arguments('-DSIMULATE_FREESTANDING',
+  language: 'cpp'
+  )
 
 baremetal_concurrency_dep = declare_dependency(include_directories: inc)
