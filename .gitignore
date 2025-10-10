@@ -14,3 +14,4 @@ mull.yml
 requirements.txt
 docs/puppeteer_config.json
 .meson-subproject-wrap-hash.txt
+docs/mermaid.conf
