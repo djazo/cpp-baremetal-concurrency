@@ -4,6 +4,7 @@ project(
     license: 'BSL-1.0',
     version: '0.1.0',
     default_options: ['cpp_std=c++23'],
+    meson_version: '>=1.1',
 )
 
 inc = include_directories('include')
